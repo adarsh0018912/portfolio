@@ -1,16 +1,101 @@
-# React + Vite
+# Adarsh Kumar Singh — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio showcasing my work, technical skills, projects, and journey as a Full Stack Web Developer.
 
-Currently, two official plugins are available:
+## 🌐 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live Website:** [Add your deployed portfolio URL here]
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I'm Adarsh Kumar Singh, a Full Stack Web Developer passionate about building modern, scalable, and user-focused web applications.
 
-## Expanding the ESLint configuration
+This portfolio serves as a central place to explore my projects, technical interests, development experience, and professional profiles.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Minimal, modern dark-themed interface
+- Responsive portfolio layout
+- Smooth scrolling and parallax effects
+- Scroll-triggered animations
+- Interactive technology stack dashboard
+- Selected project showcase
+- Professional social profile links
+- Direct email contact
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|---|---|
+| Frontend | React, JavaScript, HTML5, CSS3 |
+| Styling | CSS3, Tailwind CSS |
+| Animations | Framer Motion |
+| Build Tool | Vite |
+| Smooth Scrolling | Lenis |
+| Version Control | Git, GitHub |
+
+## 📂 Project Structure
+
+```text
+adarsh-portfolio/
+├── public/
+│   └── images/
+├── src/
+│   ├── components/
+│   ├── sections/
+│   ├── styles/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/adarsh0018912/portfolio.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd portfolio
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local URL displayed in your terminal.
+
+## 📬 Connect With Me
+
+- **GitHub:** [adarsh0018912](https://github.com/adarsh0018912)
+- **LinkedIn:** [Adarsh Kumar Singh](https://www.linkedin.com/in/adarsh-singh-b7827a310/)
+- **LeetCode:** [singh_A_18](https://leetcode.com/u/singh_A_18/)
+- **Codolio:** [adarsh_0018](https://codolio.com/profile/adarsh_0018)
+- **Email:** singhadarshsingh461@gmail.com
+
+---
+
+Designed and developed by **Adarsh Kumar Singh**.
