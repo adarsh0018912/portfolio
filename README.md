@@ -4,7 +4,7 @@ A personal portfolio showcasing my work, technical skills, projects, and journey
 
 ## 🌐 Live Preview
 
-**Live Website:** [Add your deployed portfolio URL here]
+**Live Website:** [portfolio-two-psi-r9wlzauju6.vercel.app]
 
 ## About
 
