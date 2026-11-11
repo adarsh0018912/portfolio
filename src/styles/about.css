@@ -1,0 +1,82 @@
+
+.about {
+  padding: 100px 60px;
+  background-color: #111111;
+}
+
+/* Section Heading */
+
+.about-heading {
+  margin-bottom: 60px;
+}
+
+.section-tag {
+  color: #888888;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.about-heading h2 {
+  font-size: 55px;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+
+.about-heading h2 span {
+  color: #888888;
+}
+
+/* About Content */
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+/* About Text */
+
+.about-text {
+  width: 50%;
+}
+
+.about-text h3 {
+  font-size: 30px;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+
+.about-text p {
+  color: #999999;
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
+
+/* Details */
+
+.about-details {
+  width: 40%;
+}
+
+.detail-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #333333;
+}
+
+.detail-item span {
+  color: #777777;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.detail-item h4 {
+  font-size: 18px;
+  margin: 12px 0 8px;
+}
+
+.detail-item p {
+  color: #999999;
+  font-size: 13px;
+}

@@ -1,0 +1,17 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+p {
+  text-align: center;
+  color: #a0a0a0;
+  margin-top: 15px;
+  font-size: 18px;
+}

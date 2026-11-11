@@ -1,0 +1,323 @@
+
+/* Main Section */
+
+.techstack {
+  padding: 100px 60px;
+  background-color: #080808;
+}
+
+/* Heading */
+
+.techstack-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.techstack-heading h2 {
+  font-size: 55px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin: 12px 0;
+}
+
+.techstack-heading h2 span {
+  color: #888888;
+}
+
+.techstack-intro {
+  color: #999999;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.tech-heading-symbol {
+  font-size: 65px;
+  font-weight: 700;
+  color: #777777;
+  padding-right: 20px;
+}
+
+/* Dashboard Layout */
+
+.tech-dashboard {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  align-items: start;
+  gap: 15px;
+}
+
+/* Sidebar */
+
+.tech-sidebar {
+  background-color: #101010;
+  border: 1px solid #292929;
+  border-radius: 16px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  align-self: start;
+}
+
+.tech-category {
+  width: 100%;
+  min-height: 75px;
+  padding: 0 18px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  background-color: #151515;
+  border: 1px solid #292929;
+  border-radius: 12px;
+
+  color: #aaaaaa;
+  font-family: inherit;
+  font-size: 15px;
+  text-align: left;
+
+  transition: 0.3s;
+}
+
+.tech-category:hover {
+  border-color: #666666;
+  color: white;
+}
+
+.tech-category.active {
+  background-color: #222222;
+  border-color: #888888;
+  color: white;
+  box-shadow: inset 4px 0 0 #aaaaaa;
+}
+
+.category-arrow {
+  margin-left: auto;
+  font-size: 25px;
+  color: #888888;
+}
+
+/* Main Panel */
+
+.tech-main-panel {
+  min-width: 0;
+  height: fit-content;
+  align-self: start;
+
+  background-color: #101010;
+  border: 1px solid #292929;
+  border-radius: 16px;
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+
+  animation: techFade 0.35s ease;
+}
+
+/* Category Heading */
+
+.tech-panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.panel-label {
+  color: #777777;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.tech-panel-heading h3 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.panel-description {
+  color: #999999;
+  font-size: 14px;
+  line-height: 1.7;
+  max-width: 550px;
+}
+
+/* Divider */
+
+.tech-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #333333;
+  margin: 24px 0;
+}
+
+/* Technology Grid */
+
+.tech-items {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  align-content: start;
+}
+
+/* Equal Sized Technology Cards */
+
+.tech-item {
+  width: 100%;
+  height: 125px;
+  min-width: 0;
+  padding: 12px 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  background-color: #151515;
+  border: 1px solid #303030;
+  border-radius: 12px;
+
+  transition: 0.3s ease;
+}
+
+.tech-item:hover {
+  background-color: #202020;
+  border-color: #777777;
+  transform: translateY(-4px);
+}
+
+/* Technology Logos */
+
+.tech-icon {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.tech-icon span {
+  width: 38px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #292929;
+  border: 1px solid #555555;
+  border-radius: 9px;
+
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.tech-item p {
+  color: #dddddd;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Category Animation */
+
+@keyframes techFade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tablet */
+
+@media (max-width: 1000px) {
+  .techstack {
+    padding: 80px 35px;
+  }
+
+  .tech-dashboard {
+    grid-template-columns: 220px minmax(0, 1fr);
+  }
+
+  .tech-main-panel {
+    padding: 25px;
+  }
+
+  .tech-items {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 650px) {
+  .techstack {
+    padding: 70px 20px;
+  }
+
+  .techstack-heading h2 {
+    font-size: 40px;
+  }
+
+  .tech-heading-symbol {
+    font-size: 40px;
+    padding-right: 0;
+  }
+
+  .tech-dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-sidebar {
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .tech-category {
+    min-width: 135px;
+    min-height: 55px;
+    padding: 0 12px;
+  }
+
+  .tech-main-panel {
+    padding: 20px;
+  }
+
+  .tech-panel-heading h3 {
+    font-size: 27px;
+  }
+
+  .tech-items {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .tech-item {
+    height: 115px;
+  }
+}
