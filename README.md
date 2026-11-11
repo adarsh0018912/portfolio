@@ -4,7 +4,7 @@ A personal portfolio showcasing my work, technical skills, projects, and journey
 
 ## 🌐 Live Preview
 
-**Live Website:** [https://vercel.com/singhadarshsingh461-8525/portfolio]
+**Live Website:** [https://portfolio-two-psi-r9wlzauju6.vercel.app/]
 
 ## About
 
